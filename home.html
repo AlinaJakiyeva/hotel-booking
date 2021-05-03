@@ -12,16 +12,21 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
   rel="stylesheet"
 />
-<!-- Google Fonts -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/style.css">
 <link
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
   rel="stylesheet"
 />
-<!-- MDB -->
+
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
   rel="stylesheet"
 />
+<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
   </head>
 
   <style>
@@ -47,30 +52,56 @@ a:hover
 <body>
 
 
-<nav>
+<header class="main_h" style="background-color: #FFC05A;">
 
-	<a href="home.html">Home</a>
-	<a href="attract.html">Attractions</a>
-	<a href="hotel.html">Hotels</a>
-	<a href="contact.html">About us</a>
-	<a href="sign.php">Sign Up</a>
-	<a href="login.php">Login</a>
-	<a href="#">LOGO</a>
-	<div class="animation start-home"></div>
-</nav>
+    <div class="row" style="background-color: #FFC05A;">
+        <a class="logo" href="#">LOGO</a>
 
+        <div class="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+  <nav class = "nav1">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="attract.html">Attractions</a><li>
+                <li><a href="hotel.html">Hotels</a><li>
+                <li><a href="contact.html">About Us</a><li>
+                <li><a href="sign.php">Sign Up</a><li>
+                <li><a href="login.php">Login</a><li>
+            </ul>
+        </nav>
+
+    </div> <!-- / row -->
+
+</header>
+
+<div class="hero">
+
+    <h1><span>Welcome!</span>
+      <br><h2>This website is designed to book the hotels around Kazakhstan and provide potential visitors with all necessary information about interesting places and activites in variety of cities.</h2>
+    </h1>
+
+
+</div>
+
+
+
+<!-- 
  <div
     class="p-5 text-center bg-image"
     style="
       background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.jpg');
-      height: 400px;
+      height: 400px;margin-top: 10px;
     "
   >
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
       <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white">
-          <h1 class="mb-3">Welcome!</h1>
-          <h5 class="mb-3">This website is designed to book the hotels around Kazakhstan and provide potential visitors with all necessary information about interesting places and activites in variety of cities.</h4>
+        <div class="text-white" style="text-align: left;">
+          <h1 class="mb-3" style="text-align: left; margin-left: 5px;">Welcome!</h1>
+          <h5 class="mb-3">This website is designed to book the hotels around Kazakhstan and provide potential visitors with all necessary information about interesting places and activites in variety of cities.</h5>
           <a class="btn btn-outline-light btn-lg" href="#!" role="button"
             >More</a
           >
@@ -78,8 +109,113 @@ a:hover
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
+
+
+
+<!-- <ul class="gallery">
+	<li style="background-image: url(imgs/rixos.jpg)"></li>
+	<li style="background-image: url(imgs/regis.jpg)"></li>
+	<li style="background-image: url(imgs/dom.jpg)"></li>
+	<li style="background-image: url(imgs/gory.jpg)"></li>
+</ul> -->
+
+<section class="ftco-section">
+      <div class="container">
+        <div class="row">
+    
+          <div class="col-md-12">
+            <div class="featured-carousel owl-carousel">
+              <div class="item">
+                <div class="work">
+                  <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(imgs/rixos.jpg);">
+                    <a href="#" class="icon d-flex align-items-center justify-content-center">
+                      <span class="ion-ios-search"></span>
+                    </a>
+                  </div>
+           <!--        <div class="text pt-3 w-100 text-center">
+                    <h3><a href="#">Work 01</a></h3>
+                    <span>Web Design</span>
+                  </div> -->
+                </div>
+              </div>
+              <div class="item">
+                <div class="work">
+                  <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(imgs/regis.jpg);">
+                    <a href="#" class="icon d-flex align-items-center justify-content-center">
+                      <span class="ion-ios-search"></span>
+                    </a>
+                  </div>
+            <!--       <div class="text pt-3 w-100 text-center">
+                    <h3><a href="#">Work 02</a></h3>
+                    <span>Web Design</span>
+                  </div> -->
+                </div>
+              </div>
+              <div class="item">
+                <div class="work">
+                  <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(imgs/dom.jpg);">
+                    <a href="#" class="icon d-flex align-items-center justify-content-center">
+                      <span class="ion-ios-search"></span>
+                    </a>
+                  </div>
+          <!--         <div class="text pt-3 w-100 text-center">
+                    <h3><a href="#">Work 03</a></h3>
+                    <span>Web Design</span>
+                  </div> -->
+                </div>
+              </div>
+              <div class="item">
+                <div class="work">
+                  <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(imgs/gory.jpg);">
+                    <a href="#" class="icon d-flex align-items-center justify-content-center">
+                      <span class="ion-ios-search"></span>
+                    </a>
+                  </div>
+               <!--    <div class="text pt-3 w-100 text-center">
+                    <h3><a href="#">Work 04</a></h3>
+                    <span>Web Design</span>
+                  </div> -->
+                </div>
+              </div>
+              <div class="item">
+                <div class="work">
+                  <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(imgs/rixos.jpg);">
+                    <a href="#" class="icon d-flex align-items-center justify-content-center">
+                      <span class="ion-ios-search"></span>
+                    </a>
+                  </div>
+            <!--       <div class="text pt-3 w-100 text-center">
+                    <h3><a href="#">Work 05</a></h3>
+                    <span>Web Design</span>
+                  </div> -->
+                </div>
+              </div>
+              <div class="item">
+                <div class="work">
+                  <div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(imgs/rixos.jpg);">
+                    <a href="#" class="icon d-flex align-items-center justify-content-center">
+                      <span class="ion-ios-search"></span>
+                    </a>
+                  </div>
+              <!--     <div class="text pt-3 w-100 text-center">
+                    <h3><a href="#">Work 06</a></h3>
+                    <span>Web Design</span>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 
 <div class = "container" style="margin-top: 50px;">
 <div class="row">
@@ -142,14 +278,6 @@ a:hover
   </div>
 </div>
 </div>
-
-
-<ul class="gallery">
-	<li style="background-image: url(imgs/rixos.jpg)"></li>
-	<li style="background-image: url(imgs/regis.jpg)"></li>
-	<li style="background-image: url(imgs/dom.jpg)"></li>
-	<li style="background-image: url(imgs/gory.jpg)"></li>
-</ul>
 
 <footer >
 <div class="contacts">

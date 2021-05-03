@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="regcss.css">
 		 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -25,6 +26,15 @@ a:hover
 .back{
      background-image:url(imgs/wallp.jpg);
      height: 1080px;
+}
+.right{
+  height: 350px;
+}
+.left{
+  height: calc(70% - 50px);
+}
+.container{
+  margin-top:135px;
 }
 </style>
   </head>
@@ -50,11 +60,13 @@ a:hover
     </div>
     <div class="right">
       <div class="form" >
+        <form action="auth.php" method="post">
         <label for="email">Email</label>
-        <input type="email" id="email">
+        <input type="text" name="email" placeholder="email" id="email" required>
         <label for="password">Password</label>
-        <input type="password" id="password">
-        <input type="submit" id="submit" value="Submit">
+        <input type="text" name="password" placeholder="password" id="password" required>
+        <input type="submit" id="submit" name = "submit" value="submit">
+      </form>
       </div>
     </div>
   </div>
