@@ -12,34 +12,127 @@
     color: white;
     text-decoration: none;
 }
-
 a:hover 
 {
      color:white; 
      text-decoration:none; 
      cursor:pointer;  
 }
+body{
+	background-color: white;
+
+}
+.about{
+	padding: 25px;
+	width: 500px;
+	height: 250px;
+	color: black;
+	text-align: center;
+	font-family: "Lucida Sans Unicode";
+	font-size: large;
+
+}
+		 footer{
+			 height: 300px;
+			 width: 100%;
+			 background-color: #2b2b2b;
+			 border: 1px solid black;
+			 color: white;
+		 }
+		 .icons ul{
+			 list-style: none;
+			 display: flex;
+			 justify-content: center;
+		 }
+		 .icons ul li a span {
+			 color: #000;
+			 width: 34px;
+			 background: #fff;
+			 height: 34px;
+			 text-align: center;
+			 line-height: 34px;
+			 border-radius: 20px;
+			 font-size: 13px;
+			 font-size: 14px;
+		 }
+
+		 .icons ul li{
+			 margin: 0 10px;
+		 }
+
+		 .contacts{
+			 display: flex;
+			 flex-direction: row;
+			 justify-content: center ;
+			 flex-grow: 1;
+
+		 }
+		 a{
+			 color: white;
+		 }
+		 .aaa{
+			 border: 1px solid white;
+			 background-color: white;
+			 width: 300px;
+		 }
+
 </style>
   </head>
 <body>
-
-
-
 <nav>
+
 	<a href="home.html">Home</a>
 	<a href="attract.html">Attractions</a>
 	<a href="hotel.html">Hotels</a>
 	<a href="contact.html">About Us</a>
 	<a href="sign.php">Sign Up</a>
 	<a href="login.php">Login</a>
-	<a href="#">LOGO</a>
+
 	<div class="animation start-home"></div>
+
 </nav>
 
-<section>
-	<div>
-		<p>About Us</p>
-	</div>
+<section style="margin-top: 5%; margin-left: 15%; margin-bottom: 10%">
+	<table>
+		<tr>
+			<td>
+				<img src="imgs/logo.png" style="box-shadow: 0 0 10px rgba(0,0,0,0.5);">
+			</td>
+			<td class="about">
+				<h2>About Us</h2>We are students of Astana IT University. And the goal of our project was to create a convenient site for searching and booking hotels in Kazakhstan. Our country is rich in a variety of attractions and we wanted to share them with everyone. The mission of our site is to help people on their travels find the perfect place to stop. On the site you can find detailed information about hotels in the most popular cities and places of Kazakhstan. We hope that with our help it will be much easier for you to navigate the territory of our country. Have a great vacation!
+
+			</td>
+		</tr>
+	</table>
+
 </section>
+<footer>
+	<div class="contacts">
+
+		<div style="margin-right: 25%">
+			<h2>About Us<div class="aaa"></div></h2>
+
+
+			<a href="https://www.instagram.com/fantasean1/">Alina Jakiyeva</a><br>
+			<a href="https://www.instagram.com/rustemov4__/">Azamat Rustemov</a><br>
+			<a href="https://www.instagram.com/aishabazylzhanova/">Aisha Bazylzhanova</a>
+		</div>
+		<div>
+			<h2>Contact Us  <div class="aaa"></div></h2>
+			<h2>8(705)2265947</h2>
+			<!-- Добавьте свои номера, если хотите-->
+
+		</div>
+	</div>
+	<div class="icons">
+		<ul>
+			<li><a href="https://facebook.com"><span class="fa fa-facebook"></span></a></li>
+			<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+			<li><a href="#"><span class="fa fa-telegram"></span></a></li>
+		</ul>
+	</div>
+
+</footer>
+<script src="https://use.fontawesome.com/df966d76e1.js"></script>
 </body>
 </html>
